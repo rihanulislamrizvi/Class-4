@@ -1,0 +1,62 @@
+<html>
+    <style>
+h1{
+    text-align: center;
+}
+    </style>
+<h1>
+    Student Information
+</h1>
+<h2>
+    Enter the required data in the boxes.
+</h2>
+<h4>
+    Required Information
+</h4>
+<form action="/action_page.php">
+    <label for="fname">Name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="E-mail">E-mail:</label>
+    <input type="text" id="E-mail" name="E-mail"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+
+  <form action="/action_page.php">
+    <label for="fname">Age:</label>
+    <input type="text" id="Age" name="Age"><br><br>
+   
+    <form action="/action_page.php">
+        <label for="cars">Choose a Carrer:</label>
+        <select name="Carrer" id="Carrer">
+          <option value="Computer Engineer">Computer Engineering</option>
+          <option value="Industrial Engineering">Industrial Engineering</option>
+          <option value="Electrical Engineering">Electrical Engineering</option>
+        </select>
+        <br><br>
+      </form>
+<h4>
+    Gender
+</h4>
+      <input type="radio" name="gender" value="male"> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other
+
+        <h4>
+            What is your preferred mode of study
+        </h4>
+        <input type="radio" name="Study" value="Online">Online<br>
+        <input type="radio" name="Study" value="Hybrid">Hybrid<br>
+        <input type="radio" name="Study" value="On site">On site <br>
+
+        <h4>
+            Any Comments or Suggentions
+        </h4>
+        <form action="/html/tags/html_form_tag_action.cfm" method="post">
+            <div>
+            <textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">
+            Hey... say something!
+            </textarea>
+            </div>
+            <input type="submit" value="Submit">
+            </form>
+</html>
